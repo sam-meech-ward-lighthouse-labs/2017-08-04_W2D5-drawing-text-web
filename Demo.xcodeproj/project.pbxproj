@@ -15,6 +15,9 @@
 		22D1166E1F34D39000CC9A8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D1166D1F34D39000CC9A8D /* main.m */; };
 		22D116781F34D39000CC9A8D /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D116771F34D39000CC9A8D /* DemoTests.m */; };
 		22D116831F34D39000CC9A8D /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D116821F34D39000CC9A8D /* DemoUITests.m */; };
+		22D116921F34D4FE00CC9A8D /* TrianlgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D116911F34D4FE00CC9A8D /* TrianlgeView.m */; };
+		22D116951F34DCA500CC9A8D /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D116941F34DCA500CC9A8D /* StarView.m */; };
+		22D116981F34E46900CC9A8D /* TextAndWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D116971F34E46900CC9A8D /* TextAndWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		22D1167E1F34D39000CC9A8D /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D116821F34D39000CC9A8D /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		22D116841F34D39000CC9A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D116901F34D4FE00CC9A8D /* TrianlgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrianlgeView.h; sourceTree = "<group>"; };
+		22D116911F34D4FE00CC9A8D /* TrianlgeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrianlgeView.m; sourceTree = "<group>"; };
+		22D116931F34DCA500CC9A8D /* StarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarView.h; sourceTree = "<group>"; };
+		22D116941F34DCA500CC9A8D /* StarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarView.m; sourceTree = "<group>"; };
+		22D116961F34E46900CC9A8D /* TextAndWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextAndWebViewController.h; sourceTree = "<group>"; };
+		22D116971F34E46900CC9A8D /* TextAndWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextAndWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +112,14 @@
 			children = (
 				22D1165E1F34D39000CC9A8D /* AppDelegate.h */,
 				22D1165F1F34D39000CC9A8D /* AppDelegate.m */,
+				22D116961F34E46900CC9A8D /* TextAndWebViewController.h */,
+				22D116971F34E46900CC9A8D /* TextAndWebViewController.m */,
 				22D116611F34D39000CC9A8D /* ViewController.h */,
 				22D116621F34D39000CC9A8D /* ViewController.m */,
+				22D116901F34D4FE00CC9A8D /* TrianlgeView.h */,
+				22D116911F34D4FE00CC9A8D /* TrianlgeView.m */,
+				22D116931F34DCA500CC9A8D /* StarView.h */,
+				22D116941F34DCA500CC9A8D /* StarView.m */,
 				22D116641F34D39000CC9A8D /* Main.storyboard */,
 				22D116671F34D39000CC9A8D /* Assets.xcassets */,
 				22D116691F34D39000CC9A8D /* LaunchScreen.storyboard */,
@@ -264,6 +279,9 @@
 			files = (
 				22D116631F34D39000CC9A8D /* ViewController.m in Sources */,
 				22D1166E1F34D39000CC9A8D /* main.m in Sources */,
+				22D116981F34E46900CC9A8D /* TextAndWebViewController.m in Sources */,
+				22D116921F34D4FE00CC9A8D /* TrianlgeView.m in Sources */,
+				22D116951F34DCA500CC9A8D /* StarView.m in Sources */,
 				22D116601F34D39000CC9A8D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
